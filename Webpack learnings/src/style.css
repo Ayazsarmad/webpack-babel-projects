@@ -1,0 +1,9 @@
+.text-green {
+  color: green;
+  box-shadow: 0 0 2px rgba(0, 44, 0, 0.979);
+}
+
+.text-red {
+  color: red;
+  box-shadow: 0 0 2px rgb(134, 0, 0);
+}
