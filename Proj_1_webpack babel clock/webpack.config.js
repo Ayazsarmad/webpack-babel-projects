@@ -6,6 +6,8 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
+
+  mode: "production",
   module: {
     rules: [
       {
@@ -22,7 +24,7 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "dist"),
+    static: path.resolve(__dirname, "dist"),
     open: true,
   },
 };
